@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #F5D3AB;
+}
+
+header{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.products {
+    display: flex;
+    width: 1170px;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.bigbox {
+    width: 770px;
+    height: 448px;
+    flex-shrink: 0;
+    background: #9B9B9B;
+    margin: 0 0 32px 0;
+}
+
+.smallbox {
+    width: 370px;
+    height: 448px;
+    background: #9B9B9B;
+}
