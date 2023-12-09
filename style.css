@@ -4,9 +4,33 @@ body {
     background: #F5D3AB;
 }
 
-header{
+header {
     margin: 0 auto;
     width: 1170px;
+}
+
+header h1 {
+    color: #171B1B;
+
+    font-family: Ultra;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    /* 114.286% */
+}
+
+header h6 {
+    color: #171B1B;
+
+    font-family: Oswald;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 200% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .products {
@@ -16,7 +40,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
-    
+
 }
 
 .bigbox {
@@ -31,4 +55,17 @@ header{
     width: 370px;
     height: 448px;
     background: #9B9B9B;
+}
+
+button {
+    width: 170px;
+    height: 48px;
+}
+
+.button-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
 }
