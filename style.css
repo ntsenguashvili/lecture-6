@@ -36,11 +36,14 @@ header h6 {
 .products {
     display: flex;
     width: 1170px;
-    background-color: blueviolet;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
 
+}
+
+.products img {
+    width: 100%;
 }
 
 .bigbox {
@@ -57,7 +60,7 @@ header h6 {
     background: #9B9B9B;
 }
 
-button {
+#explore-button {
     width: 170px;
     height: 48px;
 }
